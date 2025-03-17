@@ -20,7 +20,10 @@ void tabuleiro()
     // tabuleiro[8][2] = navio[0];
     // tabuleiro[9][3] = navio[0];
 
-    printf("********** BATALHA NAVAL *******************\n");
+    printf("\n");
+    printf("================================\n");
+    printf(" BATALHA NAVAL - DESAFIO NO MAR \n");
+    printf("================================\n");
     printf("   ");               // espacamento perto dos caracteres
     for (int i = 0; i < 10; i++) // exibicao dos caracteres na horizontal
     {
@@ -48,7 +51,10 @@ int main()
     do
     {
         // Menu principal
-        printf("\n***BEM VINDO AO JOGO BATALHA NAVAL!*** \n");
+        printf("\n");
+        printf("================================\n");
+        printf(" BATALHA NAVAL - DESAFIO NO MAR  \n");
+        printf("================================\n");
         printf("1) Regras \n");
         printf("2) Jogar \n");
         printf("3) Sair \n");
